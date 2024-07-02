@@ -14,8 +14,3 @@ This project is a C++ implementation of a Monte Carlo simulation for Black-Schol
 - `main.cpp`: Main file containing the entry point for the simulation.
 
 
-### Installation
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/aman-ut-kgp/BSM_Monte_Carlo_engine.git
