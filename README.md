@@ -1,16 +1,25 @@
+## Suggested README
 
 # BSM Monte Carlo Engine
 
-## Project Overview
+## Overview
+This project implements a Monte Carlo simulation for pricing European options using the Black-Scholes-Merton (BSM) model in C++. It simulates stock prices to predict option prices for non-dividend-paying stocks.
 
-This project is a C++ implementation of a Monte Carlo simulation for Black-Scholes-Merton (BSM) stock prices. The simulation uses input parameters to model and predict the behavior of stock prices over time.
+## Features
+- Monte Carlo simulation for option pricing
+- Implementation of BSM model in C++
+- Customizable input parameters for simulation
 
 ## File Structure
+- `BSM.h`: Header file for the BSM model
+- `bsm.cpp`: Implementation file for the BSM model
+- `main.cpp`: Entry point for the simulation
+- `BSM_Monte_Carlo_engine.vcxproj`: Visual Studio project file
 
-- `BSM.h`: Header file for the Black-Scholes-Merton model.
-- `BSM_Monte_Carlo_engine.vcxproj`: Visual Studio project file.
-- `BSM_Monte_Carlo_engine.vcxproj.filters`: Visual Studio project filters file.
-- `bsm.cpp`: Implementation file for the BSM model.
-- `main.cpp`: Main file containing the entry point for the simulation.
+## Dependencies
+- Visual Studio
+- Standard C++ libraries
 
+## License
+This project is licensed under the MIT License.
 
